@@ -1,0 +1,6 @@
+/Users/ualihan/Projects/Task1/bin/Debug/Task1.exe
+/Users/ualihan/Projects/Task1/bin/Debug/Task1.pdb
+/Users/ualihan/Projects/Task1/obj/x86/Debug/Task1.csprojAssemblyReference.cache
+/Users/ualihan/Projects/Task1/obj/x86/Debug/Task1.csproj.CoreCompileInputs.cache
+/Users/ualihan/Projects/Task1/obj/x86/Debug/Task1.exe
+/Users/ualihan/Projects/Task1/obj/x86/Debug/Task1.pdb
