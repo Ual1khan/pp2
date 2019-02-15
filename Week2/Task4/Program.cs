@@ -11,7 +11,7 @@ namespace Task4
             string source = @"/Users/ualihan/desktop/pp2/Week2/Task4/original.txt";
             string destination = @"/Users/ualihan/desktop/pp2/Week1/Task4/copied.txt";
 
-            if (Directory.Exists(source))
+            if (Directory.Exiss(source))
 
             {
 

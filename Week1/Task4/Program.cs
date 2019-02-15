@@ -1,5 +1,4 @@
 ﻿using System;
-using System.IO;
 
 namespace Task4
 {
@@ -7,46 +6,17 @@ namespace Task4
     {
         static void Main(string[] args)
         {
+            int n = Convert.ToInt32(Console.ReadLine());
 
-            string source = @"/Users/ualihan/desktop/pp2/Week2/Task4/original.txt";
-            string destination = @"/Users/ualihan/desktop/Week2/Task4/copied.txt";
-
-            if (Directory.Exists(source))
-
+            for (int i = 0; i < n; i++)
             {
-
-                Console.WriteLine("Your file has already created");
-                return;
-            }
-
-
-            TextWriter tw = new StreamWriter(source, true);
-
-            Console.WriteLine("Press Enter to Copy");
-
-
-
-            if (Console.ReadKey().Key == ConsoleKey.Enter)
-            {
-
-                File.Copy(source, destination, true);
-
-                Console.WriteLine("Copied!");
-            }
-
-            Console.WriteLine();
-
-            Console.WriteLine("Press Enter to Delete old file");
-
-
-            if (Console.ReadKey().Key == ConsoleKey.Enter)
-            {
-                File.Delete(source);
-
-                Console.WriteLine("Deleted");
+                for (int j = 0; j <= i; j++)
+                {
+                    Console.Write("[*]");
+                }
+                Console.WriteLine();
             }
 
         }
-
     }
 }
