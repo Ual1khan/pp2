@@ -9,13 +9,13 @@ namespace Task4
         {
 
             string source = @"/Users/ualihan/desktop/pp2/Week2/Task4/original.txt";
-            string destination = @"/Users/ualihan/desktop/Week2/Task4/copied.txt";
+            string destination = @"/Users/ualihan/desktop/pp2/Week1/Task4/copied.txt";
 
             if (Directory.Exists(source))
 
             {
 
-                Console.WriteLine("Your file has already created");
+                Console.WriteLine("file has already created");
                 return;
             }
 
@@ -31,7 +31,7 @@ namespace Task4
 
                 File.Copy(source, destination, true);
 
-                Console.WriteLine("Copied!");
+                Console.WriteLine("Copied");
             }
 
             Console.WriteLine();
